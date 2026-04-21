@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stream Tracker | Track Your Favorite Movies & TV Shows</title>
+    <style>
+        :root { --primary: #6200ee; --bg: #121212; --text: #e0e0e0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; display: flex; flex-direction: column; min-height: 100vh; align-items: center; justify-content: center; text-align: center; }
+        .container { padding: 20px; max-width: 600px; }
+        nav { position: fixed; top: 0; left: 0; right: 0; padding: 16px 24px; display: flex; align-items: center; }
+        nav a { color: #888; text-decoration: none; font-size: 0.9rem; }
+        nav a:hover { color: #fff; }
+        h1 { font-size: 3rem; margin-bottom: 10px; color: #fff; }
+        p { font-size: 1.2rem; color: #b0b0b0; line-height: 1.5; }
+        .badge-container { margin-top: 30px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .badge { background: #333; padding: 12px 24px; border-radius: 8px; color: #fff; text-decoration: none; font-weight: bold; border: 1px solid #444; transition: 0.3s; }
+        .badge:hover { background: #444; border-color: var(--primary); }
+        footer { margin-top: 50px; padding: 20px; font-size: 0.9rem; color: #666; }
+        footer a { color: #888; text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
+        .logo { width: 100px; height: 100px; background: var(--primary); border-radius: 22%; margin-bottom: 20px; display: inline-block; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">&larr; Kugundua</a>
+    </nav>
+
+    <div class="container">
+        <div class="logo"></div>
+
+        <h1>Stream Tracker</h1>
+        <p>The simplest way to track your movie and TV show watchlists. 100% private, 100% local, 100% focused on your entertainment.</p>
+
+        <div class="badge-container">
+            <a href="#" class="badge">App Store</a>
+            <a href="#" class="badge">Google Play</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kugundua LLC</p>
+        <a href="stream-tracker-privacy-policy.html">Privacy Policy</a>
+        <a href="mailto:support@kugundua.com">Support</a>
+    </footer>
+
+</body>
+</html>
